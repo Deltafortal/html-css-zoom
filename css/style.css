@@ -8,6 +8,11 @@
 
 /* Root */
 
+:root {
+    --gray:#222222;
+    --green: #419c0a;
+    --red: #bb2e31;
+}
 
 /* Utils */
 
