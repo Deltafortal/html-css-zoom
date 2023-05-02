@@ -62,15 +62,8 @@ nav a {
 .container {
     margin: 0 auto;
     width: 70vw;
-    height: calc(100vh - 100px - 70px - 10px);
+    height: calc(100vh - 100px - 70px - 10px) ;
     overflow-y: auto;
-}
-
-
-
-.card-container {
-    display: inline-block;
-    margin: auto;
 }
 
 .card {
@@ -95,5 +88,56 @@ nav a {
 
 footer {
     background-color: var(--gray);
+
+}
+
+
+
+.left-nav {
+    flex-basis: 20%;
     height: 100px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu  i {
+    width: 40px;
+    font-size: 30px;
+    margin: 0 25px 0 20px;
+}
+
+i > div {
+    width: 120px;
+    font-size: 8px;
+    padding-top: 10px;
+    text-align: center;
+    transform: translatex(-40%);
+}
+
+
+.middle-nav {
+    flex-basis: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+#special {
+    color: var(--green);
+}
+
+
+.right-nav {
+    flex-basis: 20%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-nav a {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    height: 100%;
+    background-color: #4a4a4a;
+    color: var(--red);
+    line-height: 70px;
 }
