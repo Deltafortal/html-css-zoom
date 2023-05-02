@@ -56,3 +56,31 @@ nav a {
 
 
 
+ 
+/* main */
+
+.container {
+    margin: 0 auto;
+    width: 90vw;
+    height: calc(100vh - 100px - 70px - 10px);
+    background-color: green;
+    overflow-y: auto;
+}
+
+.row {
+
+}
+
+.card {
+    
+}
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: var(--gray);
+    height: 100px;
+}
