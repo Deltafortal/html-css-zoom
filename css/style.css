@@ -106,7 +106,8 @@ footer {
     margin: 0 25px 0 20px;
 }
 
-i > div {
+i > span {
+    display: inline-block;
     width: 120px;
     font-size: 8px;
     padding-top: 10px;
